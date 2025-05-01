@@ -1,4 +1,4 @@
-## Interpreter also follows the three steps:
+## Interpreter also follows the four steps:
 
 ### 1. Lexical Analysis (Tokenizer / Lexer / Scanner)
 - Breaks code into tokens.
