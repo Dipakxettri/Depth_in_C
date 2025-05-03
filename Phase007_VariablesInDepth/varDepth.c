@@ -23,8 +23,8 @@ int main(){
     a = b = c = d = 20;  // assign 20 to all
     printf("%d\n", a);  // print the value of 'a'
     return 0;
-
+    
     // for detailed visulation of c in memory visit:
-    // https://pythontutor.com/visualize.html#mode=edit
+    // https:pythontutor.com/visualize.html#mode=edit
 
 }
