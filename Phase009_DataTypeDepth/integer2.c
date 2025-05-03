@@ -13,8 +13,8 @@ int main()
 
     // long and short:
     // Note: the bytes of datatypes depends on the systems specally (long int) type.
-    long long a = 20;
-    printf("%zu", sizeof(a));//8 bytes
+    // long long a = 20;
+    // printf("%zu", sizeof(a));//8 bytes
     // Note:
     // sizeof(short) <= sizeof(int)
     // sizeof(int) <= sizeof(long)
@@ -62,6 +62,9 @@ int main()
     printf(" %llu to %llu",o,p);
 
 
+    // Note : When we try to assign a negative value to an unsigned type, it doesn't "throw an error" but instead wraps around the negative number and converts it to a large positive value due to (integer underflow)
+
+
     // A Question argues why use short int, long int and long long int? and why we write a int after each type like (short int) where in other languages like java we just do like short,long why we are doing these in C?
     // => the answer is that a C is more about effective memory management C provide effective ways of memory management and these concepts are the part of it.
     // In C:
@@ -77,4 +80,5 @@ int main()
 
 
     return 0;
+    
 }
